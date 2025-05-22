@@ -1,3 +1,6 @@
+#![allow(dead_code)]
+#![allow(unused_variables)]
+
 mod ticket {
     pub struct Ticket {
         title: String,
