@@ -1,0 +1,8 @@
+[package]
+name = "references_in_memory"
+version = "0.1.0"
+edition = "2021"
+
+[lints.rust]
+dead_code = "allow"
+unused = "allow"

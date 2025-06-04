@@ -1,0 +1,11 @@
+[package]
+name = "btreemap"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ticket_fields = { path = "../../../helpers/ticket_fields" }
+
+[lints.rust]
+dead_code = "allow"
+unused = "allow"

@@ -1,0 +1,11 @@
+[package]
+name = "future"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+
+[lints.rust]
+dead_code = "allow"
+unused = "allow"

@@ -1,0 +1,11 @@
+[package]
+name = "nullability"
+version = "0.1.0"
+edition = "2021"
+
+[dev-dependencies]
+common = { path = "../../../helpers/common" }
+
+[lints.rust]
+dead_code = "allow"
+unused = "allow"
